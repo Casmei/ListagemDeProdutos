@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Index</title>
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+    </head>
+
+    <body>
+
+        
+
+        <div>
+                <h1>Listagem de Produtos</h1>
+                
+                <hr>
+                
+            <table class="content-table">
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Estoque</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for produto in produtos %}
+                        <tr>
+                            <td>{{ produto.id }}</td>
+                            <td><a href="{% url 'produto' produto.id %}">{{ produto.nome }}</a></td>
+                            <td>{{ produto.preco }}</td>
+                            <td>{{ produto.estoque }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+
+            </table>
+            <a href="/admin"><button>Painel</button></a>
+        </div>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,92 @@
+* {
+    font-family: sans-serif; /* Change your font family */
+  }
+
+body {
+    background-color: #fcfcfc;
+}
+  
+
+h1, h2{
+    text-align: center;
+    color: #009879;
+    margin: 0;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: none;
+    height: 2px;
+    width: 500px;
+    background-color: #dddddd;
+}
+
+div {
+    margin-top: 300px;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+button {
+    background-color: #4699ec;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 14px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+  .content-table {
+    margin-left: auto;
+    margin-right: auto; 
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 500px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .content-table tbody tr td a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+
+  
