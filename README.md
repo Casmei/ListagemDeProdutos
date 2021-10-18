@@ -16,6 +16,6 @@ Ao clicarmos no nome de qualquer um dos produtos, seremos redirecionados para a 
 ![image](https://user-images.githubusercontent.com/68354933/131719719-9f31623b-7828-463d-9642-2110728577aa.png)
 
 ### - Painel Adiministrativo | DjangoAdmin
-O Django utiliza uma ORM, que abstrai o trabalho de criar diretamente a estrutura no banco, nós vamos criar uma classe que representará a tabela no banco.
+O Django utiliza uma ORM, que abstrai o trabalho de criar diretamente a estrutura no banco, iremos criar uma classe que representará a tabela.
 
 ![image](https://user-images.githubusercontent.com/68354933/131726897-d87bfe9d-c04f-4b50-9ede-d3c69ceea15d.png)
