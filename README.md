@@ -9,7 +9,7 @@ Encontramos na primeira página uma lista simples, criada a partir de um laço `
 ![image](https://user-images.githubusercontent.com/68354933/131719409-4fcaba7a-3850-401a-a46c-5fcbf835561c.png)
 
 ### - Segunda Página | Produto
-Ao clicarmos no nome de qualquer um dos produtos, seremos redirecionados para a página **produto**, podendo assim visualizar informações mais detalhadas sobre o produto em expecífico, mas de início eu não acrescentei nada.
+Ao clicarmos no nome de qualquer um dos produtos, seremos redirecionados para a página **produto**, podendo assim visualizar informações mais detalhadas sobre o produto em expecífico.
 
 - É importante frizar que são inseridos em suas urls os ID's dos respectivos produtos.
 
